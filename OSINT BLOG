@@ -1,1 +1,22 @@
+Solving Bellingcat's "Shattered Glass" OSINT Challenge: My Investigation Process
 
+As part of improving my Open Source Intelligence (OSINT) skills, I completed the Shattered Glass challenge by Bellingcat. The challenge tests an investigator's ability to analyze publicly available information, connect multiple clues, and verify findings using open-source techniques.
+Rather than simply presenting the answers, this write-up focuses on the investigative workflow, the reasoning behind each step, and the tools that helped me reach my conclusions.
+
+Challenge Overview :
+
+A wide range of structural damage can be caused by the pressure created by an explosion. On the low end of the spectrum, glass can be shattered by the pressure generated, while on the extreme end, concrete buildings can be severely damaged or destroyed.
+The damage caused by an explosion, and the distance at which it occurred can provide some information on the size of the explosion.
+What is the minimum peak overpressure required to shatter glass? (give answer in kPa as an integer)
+
+Investigation :
+
+The Question was asking for a specific engineering value rather than a requiring analysis of images or geolocation. I looked for blast-effect charts, engineering manuals, and government publications that describe the relationship between peak overpressure and structural damage.
+
+This led me to the  "NATO HAND BOOK ON THE MEDICAL ASPECTS OF NBC DEFENSIVE OPERATATIONS" , which contains reference tables describing the effects of different peak overpressure levels on people and structures. 
+
+Verification:
+Because this value came from an official NATO reference manual, I considered it a reliable source. I also compared it with other blast-effect references to ensure the value was consistent.
+
+What i Learned :
+This question reinforced an important OSINT lesson: authoritative technical documents—such as military manuals, government publications, and engineering handbooks—are often more reliable than general web pages when researching scientific or engineering topics. Identifying and using primary sources improves both the accuracy and credibility of an investigation.
